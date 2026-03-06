@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Online Complaint System</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Online Complaint Registration System</h1>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="complaint.html">Register Complaint</a>
+<a href="track.html">Track Complaint</a>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<h2>Welcome to Complaint Portal</h2>
+
+<p>
+Citizens can register complaints online and track the status easily.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Register Complaint</h3>
+<p>Submit a complaint online.</p>
+<a href="complaint.html">
+<button>Register</button>
+</a>
+</div>
+
+<div class="card">
+<h3>Track Complaint</h3>
+<p>Check complaint status.</p>
+<a href="track.html">
+<button>Track</button>
+</a>
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Track Complaint</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Track Complaint</h1>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="complaint.html">Register Complaint</a>
+<a href="track.html">Track Complaint</a>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<h2>Track Your Complaint</h2>
+
+<input id="trackId" placeholder="Enter Complaint ID">
+
+<button onclick="trackComplaint()">
+Track
+</button>
+
+<p id="result"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Register Complaint</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Register Complaint</h1>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="complaint.html">Register Complaint</a>
+<a href="track.html">Track Complaint</a>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<h2>Complaint Form</h2>
+
+<input id="title" placeholder="Complaint Title">
+
+<select id="category">
+
+<option>Water Supply</option>
+<option>Electricity</option>
+<option>Road Damage</option>
+<option>Garbage</option>
+<option>Street Light</option>
+<option>Other</option>
+
+</select>
+
+<textarea id="description" placeholder="Complaint Description"></textarea>
+
+<input id="location" placeholder="Location">
+
+<button onclick="submitComplaint()">
+Submit Complaint
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
